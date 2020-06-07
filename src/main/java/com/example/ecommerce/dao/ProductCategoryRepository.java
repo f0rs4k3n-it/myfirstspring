@@ -11,5 +11,5 @@ prova 4
 @RepositoryRestResource(collectionResourceRel = "productCategory", path = "product-category")
 public interface ProductCategoryRepository extends JpaRepository<ProductCategory, Long> {
 
-    int i=3;
+    int i=6;
 }
