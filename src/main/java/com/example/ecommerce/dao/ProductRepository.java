@@ -9,5 +9,6 @@ service 1
  */
 @CrossOrigin("http://localhost:4200")
 public interface ProductRepository extends JpaRepository<Product, Long> {
+    int i=0;
 
 }
